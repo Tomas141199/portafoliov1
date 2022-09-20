@@ -1,4 +1,5 @@
 import useMightyMouse from "react-hook-mighty-mouse";
+import styles from "./Eye.module.css";
 
 const Eye = () => {
   const {
@@ -12,9 +13,9 @@ const Eye = () => {
   };
 
   return (
-    <div className="eyes">
-      <div id="left-eye" className="eye" style={styleEye}>
-        <div className="pupil" />
+    <div className={styles.eyes}>
+      <div id="left-eye" className={styles.eye} style={styleEye}>
+        <div className={styles.pupil} />
       </div>
     </div>
   );

@@ -1,10 +1,11 @@
 import type { NextPage } from "next";
 import { Layout } from "../components/layout";
-import { About } from "../components/sections";
+import { About, HeroContainer } from "../components/sections";
 
 const Home: NextPage = () => {
   return (
     <Layout>
+      <HeroContainer />
       <About />
       <section id="myskills">PROJECTS</section>
       <section id="experience">BLOG</section>

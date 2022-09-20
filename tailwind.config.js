@@ -32,6 +32,9 @@ module.exports = {
         "extralight-gray": "#ccd6f6",
         "primary-aqua": "#64ffda",
       },
+      spacing: {
+        tiny: "0.122rem",
+      },
     },
   },
   plugins: [require("daisyui")],

@@ -8,7 +8,6 @@ export const HeaderContainer = tw.div`
     justify-between
     flex-wrap
     items-center
-    fixed
     w-full
     bg-primary-blue
     z-[100]

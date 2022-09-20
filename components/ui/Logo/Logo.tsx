@@ -5,7 +5,7 @@ import { LogoWrapper, SignalLeft, SignalRight } from "./Logo.styled";
 
 const Logo: FC = () => {
   return (
-    <Link activeClass="none" smooth spy to="about">
+    <Link activeClass="none" smooth spy to="home">
       <LogoWrapper className={styles.animate}>
         <SignalLeft id="signal-left">{"<"}</SignalLeft>
         <div>Tomas.hg</div>

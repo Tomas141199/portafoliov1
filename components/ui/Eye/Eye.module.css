@@ -1,0 +1,22 @@
+.eyes {
+  @apply relative;
+}
+
+.eye {
+  border-radius: 50%;
+  @apply h-3 w-3 sm:h-5 sm:w-5 md:h-8 md:w-8;
+}
+
+.pupil {
+  @apply absolute
+  bg-[#382e25]
+  rounded-[50%]
+  w-1
+  h-1
+  md:w-3
+  md:h-3
+  left-2
+  md:left-4
+  top-1
+  md:top-3;
+}

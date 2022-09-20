@@ -2,28 +2,7 @@ import { FC } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { LinksContainer, LinkSection } from "./DesktopNav.styled";
 import { links } from "../../../mocks";
-
-const itemVariants = {
-  closed: {
-    opacity: 0,
-  },
-  open: { opacity: 1 },
-};
-
-const sideVariants = {
-  closed: {
-    transition: {
-      staggerChildren: 0.2,
-      staggerDirection: -1,
-    },
-  },
-  open: {
-    transition: {
-      staggerChildren: 0.2,
-      staggerDirection: 1,
-    },
-  },
-};
+import { itemVariants, sideVariants } from "./DesktopNav.framer";
 
 const DesktopNav: FC = () => {
   return (
