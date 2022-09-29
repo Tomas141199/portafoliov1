@@ -13,6 +13,10 @@
   z-index: 1;
 }
 
+.button:active {
+  transform: scale(0.95);
+}
+
 .button::before {
   position: absolute;
   top: 0;
@@ -32,6 +36,7 @@
 .btn {
   overflow: hidden;
 }
+
 .btn::before {
   right: auto;
   bottom: auto;

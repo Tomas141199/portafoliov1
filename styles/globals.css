@@ -12,7 +12,6 @@ body {
 section {
   display: grid;
   place-items: center;
-  height: 100vh;
 }
 
 /* Scrollbar Styling */
@@ -34,11 +33,11 @@ section {
 }
 
 ::-moz-selection {
-  @apply text-white bg-primary-green;
+  @apply bg-primary-green;
 }
 
 ::selection {
-  @apply text-white bg-primary-green;
+  @apply bg-primary-green;
 }
 
 .active {
@@ -47,4 +46,47 @@ section {
 
 span {
   @apply relative inline-block cursor-default mt-2;
+}
+
+.react-tabs {
+  @apply mt-10 w-full h-auto flex flex-col md:items-start items-center md:flex-row border-none;
+}
+
+.react-tabs__tab-list {
+  @apply flex flex-row md:flex-col w-full md:w-44 m-0 p-0;
+}
+
+.react-tabs__tab {
+  @apply mb-6 md:mb-0 outline-none w-full transition duration-300 text-blue-font text-xs cursor-pointer h-12 flex justify-start items-center p-2;
+}
+
+.react-tabs__tab:hover {
+  @apply bg-warning;
+}
+
+.react-tabs__tab--selected {
+  @apply border-b-2 md:border-b-0 md:border-l-2 border-primary-green bg-warning text-primary-green;
+}
+
+.react-tabs__tab-panel {
+  @apply hidden w-56 ml-0 md:ml-4;
+}
+
+.react-tabs__tab-panel--selected {
+  @apply block;
+}
+
+.panel-content {
+  text-align: center;
+}
+
+.tagcloud {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  margin: auto;
+  width: 50%;
+}
+
+.tagcloud--item:hover {
+  color: #36454f;
 }

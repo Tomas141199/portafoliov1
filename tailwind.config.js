@@ -3,6 +3,8 @@ module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{html,js}",
+    "./node_modules/tw-elements/dist/js/**/*.js",
   ],
   daisyui: {
     themes: [
@@ -15,7 +17,7 @@ module.exports = {
           "base-100": "#ccd6f6",
           info: "#fd2155",
           success: "#8892b0",
-          warning: "#ccd6f6",
+          warning: "#112240",
           error: "#F87272",
         },
       },
@@ -31,11 +33,15 @@ module.exports = {
         "blue-font": "#8892b0",
         "extralight-gray": "#ccd6f6",
         "primary-aqua": "#64ffda",
+        "blue-light": "#0000",
       },
+
       spacing: {
         tiny: "0.122rem",
+        extratiny: "0.07rem",
+        100: "26rem",
       },
     },
   },
-  plugins: [require("daisyui")],
+  plugins: [require("daisyui"), require("tw-elements/dist/plugin")],
 };
