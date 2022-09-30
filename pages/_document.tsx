@@ -5,10 +5,7 @@ export default function Document() {
     <Html data-theme="mytheme">
       <Head>
         <link rel="shortcut icon" href="/icon.png" />
-        <meta
-          name="title"
-          content="My Portafolio Web - Tomas Hernandez Garcia"
-        />
+        <meta name="title" content="Portfolio Web - Tomás Hernández García" />
         <meta
           name="description"
           content="Hi my name is Tomas Hernandez Garcia and I'm a software engineeer"
@@ -17,7 +14,7 @@ export default function Document() {
         <meta property="og:url" content="https://tomas-hg.vercel.app/" />
         <meta
           property="og:title"
-          content="My Portafolio Web - Tomas Hernandez Garcia"
+          content="Portfolio Web - Tomás Hernández García"
         />
         <meta
           property="og:description"

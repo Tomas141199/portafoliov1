@@ -10,7 +10,7 @@ const Layout: FC<Props> = ({ children }) => {
   return (
     <>
       <Head>
-        <title>My Portafolio</title>
+        <title>My Portfolio</title>
       </Head>
 
       <Header />
