@@ -14,7 +14,8 @@ export const SectionHeading = tw.h2`
     after:h-extratiny
     after:bg-gray-font
     after:top-1/2
-    after:left-1/3
+    -after:right-0
+    after:translate-x-4
 `;
 
 export const Paragraph = tw.p`

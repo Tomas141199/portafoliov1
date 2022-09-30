@@ -3,7 +3,7 @@ import { SectionHeading, Paragraph, Accent } from "../../styled-components";
 
 const About: FC = () => {
   return (
-    <div id="about" className="mt-40 w-80 md:w-96 mx-auto">
+    <section id="about" className="pt-24 mt-28 w-80 md:w-96 mx-auto">
       <SectionHeading>about me</SectionHeading>
       <Paragraph>
         I am an IT student passionate about new technologies. As a Full-Stack
@@ -18,7 +18,7 @@ const About: FC = () => {
         <Accent> learn </Accent> new tools to work with, both established and
         new.
       </Paragraph>
-    </div>
+    </section>
   );
 };
 

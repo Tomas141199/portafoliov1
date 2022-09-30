@@ -72,134 +72,23 @@ const TagSkills = () => {
     })
   );
 
-  const ImgATag = [
-    renderImg({
-      imgProps: {
-        src: "https://openmoji.org/data/color/svg/1F30D.svg",
-        alt: "waving hand",
-        width: 50,
-        height: 50,
-      },
-      aProps: {
-        href: "https://openmoji.org",
-        target: "_blank",
-        rel: "noreferrer",
-      },
-    }),
-    renderImg({
-      imgProps: {
-        src: "https://openmoji.org/data/color/svg/1F44B.svg",
-        alt: "Globe",
-        width: 100,
-        height: 100,
-      },
-      aProps: {
-        href: "https://openmoji.org",
-        target: "_blank",
-        rel: "noreferrer",
-      },
-    }),
-  ];
-
   // https://www.goat1000.com/tagcanvas-options.php
   const options: ICloud["options"] = {
-    // activateAudio: string
-    // activeCursor: string
-    // altImage: boolean
-    // animTiming: 'Smooth' | 'Linear'
-    // audioIcon: boolean
-    // audioIconDark: boolean
-    // audioIconSize: number
-    // audioIconThickness: number
-    // audioVolume: number
-    // bgColor: null | string
-    // bgOutlineThickness: number
-    // bgRadius: number
-    // centreFunc: any
-    // centreImage: any
     clickToFront: 500,
-    // decel: number
     depth: 1,
-    // dragControl: boolean
-    // dragThreshold: number
-    // fadeIn: number
-    // freezeActive: boolean
-    // freezeDecel: boolean
-    // frontSelect: boolean
-    // hideTags: boolean
-    // imageAlign: 'centre' | 'left' | 'right'
-    // imageMode: null | 'image' | 'text' | 'both'
-    // imagePadding: number
-    // imagePosition: 'top' | 'bottom' | 'left' | 'right'
-    // imageRadius: number | string
     imageScale: 2,
-    // imageVAlign: 'top' | 'bottom' | 'middle'
     initial: [0.1, -0.1],
-    // interval: number
-    // lock: null | 'x' | 'y' | 'xy'
-    // maxBrightness: number
-    // maxSpeed: number
-    // minBrightness: number
-    // minSpeed: number
-    // minTags: 0 - 200
-    // noMouse: boolean
-    // noSelect: boolean
-    // noTagsMessage: string
-    // offsetX: number
-    // offsetY: number
     outlineColour: "#0000",
-    // outlineDash: number
-    // outlineDashSpace: number
-    // outlineIncrease: number
-    // outlineMethod: 'outline' | 'classic' | 'block' | 'colour' | 'size' | 'none'
-    // outlineOffset: number
-    // outlineRadius: number
-    // outlineThickness: number
-    // padding: number
-    // pinchZoom: boolean
-    // pulsateTime: number
-    // pulstateTo: number
-    // radiusX: number
-    // radiusY: number
-    // radiusZ: number
-    // repeatTagsTags: 0 - 64
     reverse: true,
-    // scrollPause: boolean
-    // shadow: string
-    // shadowBlur: number
-    // shadowOffset: [number,number] | number[]
-    // shape: 'sphere' | 'hcylinder' | 'vcylinder' | 'hring' | 'vring'
-    // shuffleTags: boolean
-    // splitWidth: number
-    // stretchX: number
-    // stretchY: number
-    // textAlign: 'centre' | 'left' | 'right'
-    // textColour: string
-    // textFont: string
-    // textHeight: number
-    // textVAlign: 'top' | 'bottom' | 'middle'
     tooltip: "native", // null | 'div'
-    // tooltipClass: string
     tooltipDelay: 0,
-    // txtOpt: boolean
-    // txtScale: number
-    // weight: boolean
-    // weightFrom: any
-    // weightGradient: any
-    // weightMode: 'size' | 'colour' | 'both' | 'bgcolour' | 'bgoutline' | 'outline'
-    // weightSize: number
-    // weightSizeMax: number | null
-    // weightSizeMin: number | null
     wheelZoom: false,
-    // zoom: number
-    // zoomMax: number
-    // zoomMin: number
-    // zoomStep: number
   };
 
   return (
     <div style={rootStyle}>
       <Cloud
+        id={330022}
         containerProps={containerProps}
         canvasProps={canvasProps}
         options={options}
@@ -219,7 +108,6 @@ const TagSkills = () => {
           />
         </a>
         {IconATags}
-        {ImgATag}
       </Cloud>
     </div>
   );

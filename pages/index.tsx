@@ -2,6 +2,7 @@ import type { NextPage } from "next";
 import { Layout } from "../components/layout";
 import {
   About,
+  Contact,
   Experience,
   HeroContainer,
   Skills,
@@ -16,7 +17,7 @@ const Home: NextPage = () => {
       <Experience />
       <Skills />
       <Work />
-      <section id="contact">CONTACT ME</section>
+      <Contact />
     </Layout>
   );
 };

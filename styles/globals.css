@@ -6,10 +6,10 @@
 html,
 body {
   font-family: "Space Grotesk", sans-serif;
-  @apply bg-primary min-h-screen text-base-100;
+  @apply bg-primary text-base-100;
 }
 
-section {
+.hero {
   display: grid;
   place-items: center;
 }

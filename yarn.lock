@@ -2341,6 +2341,13 @@ uri-js@^4.2.2:
   dependencies:
     punycode "^2.1.0"
 
+use-scroll-direction@^1.1.4:
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/use-scroll-direction/-/use-scroll-direction-1.1.4.tgz#4ab620f3df1c8a77aebd96527544538cdfc6a035"
+  integrity sha512-RffVEp3rI79fIP6jr4XYPRGr2KO1DkE6MV5AM/ak0sFxd63exKoyBCNg40LIJg5mIwvDphr/8Fcbk8FQyoZHqA==
+  dependencies:
+    lodash.throttle "^4.1.1"
+
 use-sync-external-store@1.1.0:
   version "1.1.0"
   resolved "https://registry.npmjs.org/use-sync-external-store/-/use-sync-external-store-1.1.0.tgz"

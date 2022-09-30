@@ -8,7 +8,7 @@ const Logo: FC = () => {
     <Link activeClass="none" smooth spy to="home">
       <LogoWrapper className={styles.animate}>
         <SignalLeft id="signal-left">{"<"}</SignalLeft>
-        <div>Tomas.hg</div>
+        <div className="text-extralight-gray">Tomas.hg</div>
         <SignalRight id="signal-right">{"/>"}</SignalRight>
       </LogoWrapper>
     </Link>

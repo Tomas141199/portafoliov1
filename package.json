@@ -25,6 +25,7 @@
     "react-tabs": "^5.1.0",
     "simple-icons": "5.12.0",
     "tw-elements": "^1.0.0-alpha12",
+    "use-scroll-direction": "^1.1.4",
     "uuid": "^9.0.0"
   },
   "devDependencies": {
