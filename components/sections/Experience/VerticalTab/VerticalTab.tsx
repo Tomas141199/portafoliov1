@@ -22,11 +22,9 @@ const VerticalTab: FC = () => {
                   {job} <Accent> @ {place}</Accent>
                 </h2>
               </div>
-
               <span className="block mt-4 text-xs text-blue-font text-center">
                 {date}
               </span>
-
               <ul className="mt-4 leading-3 w-full">
                 {roles.map(({ id, role }) => (
                   <div key={id}>
@@ -37,7 +35,8 @@ const VerticalTab: FC = () => {
                   </div>
                 ))}
               </ul>
-              <Accent className="text-xs leading-extratiny">{stack}</Accent>
+              <span className="text-xs">Tech stack: </span>
+              <Accent className="text-xs leading-extratiny"> {stack} </Accent>
             </TabPanel>
           </div>
         ))}

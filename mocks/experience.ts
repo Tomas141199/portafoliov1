@@ -24,7 +24,7 @@ export const experience_data: experience[]  = [
          {id:14805, role: "Developing an administration panel for local products using Nodejs and strapi CMS"},
         {  id: 14406, role:"Following CI/CD methodologies for application distribution and development automation."},
         ],
-        stack: "Full-Stack Tech Stack: ReactTS, CSS, Nodejs, Mysql, Redux, Prettier, Express",
+        stack: "ReactTS, CSS, Nodejs, Mysql, Redux, Prettier, Express",
 
     },
     {
@@ -38,7 +38,7 @@ export const experience_data: experience[]  = [
             {id: 1412011 ,role:"Developing an administration panel for local products using Nodejs and strapi CMS"},
             {id: 1476012 ,role:"Following CI/CD methodologies for application distribution and development automation."},
         ],
-        stack: "Front-End and React Tech Stack: Reactjs, Redux, Context, StyledComponents, CSS Modules, Hooks, Formik, Yup, NPM, Fetch",
+        stack: "Reactjs, Redux, Context, StyledComponents, CSS Modules, Hooks, Formik, Yup, NPM, Fetch",
 
     },
     {
@@ -48,7 +48,7 @@ export const experience_data: experience[]  = [
             {id: 1443013 ,role:"Calculating project development budget."},
             {id: 1404314 ,role:"Proposing designs for the main interfaces."},
         ],
-        stack: "Front-End Stack: NextTS, CSS Modules, Figma, MaterialUI",
+        stack: "NextTS, CSS Modules, Figma, MaterialUI",
 
     },
 
