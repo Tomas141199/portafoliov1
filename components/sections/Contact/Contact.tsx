@@ -4,9 +4,9 @@ import { Email } from "./Email";
 
 const Contact: FC = () => {
   return (
-    <section id="contact" className="pt-24 mt-32 w-80 md:w-96 mx-auto h-screen">
+    <section id="contact" className="pt-24 mt-32 mx-auto h-screen">
       <SectionHeading>Contac me</SectionHeading>
-      <Paragraph>
+      <Paragraph className="w-full md:w-3/4">
         I&rsquo;m currently <Accent> looking </Accent> for
         <Accent> new opportunities </Accent>, my <Accent>inbox</Accent> is
         always open. Whether you have a <Accent>question</Accent> or just want

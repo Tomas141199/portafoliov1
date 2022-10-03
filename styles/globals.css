@@ -6,7 +6,27 @@
 html,
 body {
   font-family: "Space Grotesk", sans-serif;
-  @apply bg-primary text-base-100;
+  @apply bg-primary 
+  text-base-100;
+}
+
+.content-page {
+  padding: 0px 25px;
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+@media (min-width: 480px) {
+  .content-page {
+    padding: 0px 50px;
+  }
+}
+
+@media (min-width: 700px) {
+  .content-page {
+    padding: 0px 150px;
+  }
 }
 
 .hero {
@@ -49,7 +69,7 @@ span {
 }
 
 .react-tabs {
-  @apply mt-10 w-full h-auto flex flex-col md:items-start items-center md:flex-row border-none;
+  @apply mt-10 w-full h-auto flex flex-col md:items-start items-center justify-center md:flex-row border-none;
 }
 
 .react-tabs__tab-list {

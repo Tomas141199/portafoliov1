@@ -4,8 +4,10 @@ import { VerticalTab } from "./VerticalTab";
 
 const Experience = () => {
   return (
-    <section id="experience" className="pt-24 w-80 md:w-100 mx-auto">
-      <SectionHeading>Experience</SectionHeading>
+    <section id="experience" className="pt-24 mx-auto">
+      <SectionHeading className="text-left md:text-center">
+        Experience
+      </SectionHeading>
       <VerticalTab />
     </section>
   );

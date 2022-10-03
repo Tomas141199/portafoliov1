@@ -5,7 +5,7 @@ import { Accent } from "../../../styled-components";
 
 const VerticalTab: FC = () => {
   return (
-    <div className="w-full flex justify-start">
+    <div className="w-full flex">
       <Tabs>
         <TabList>
           {experience_data.map(({ id, place }) => (

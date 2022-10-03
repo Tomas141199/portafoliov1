@@ -4,20 +4,20 @@ import { TagSkills } from "./TagSkills";
 
 const Skills: FC = () => {
   return (
-    <div id="myskills" className="pt-24 mt-32 w-80 md:w-96 mx-auto h-screen">
+    <div id="myskills" className="pt-24 mt-24 mx-auto h-screen">
       <SectionHeading>my skills</SectionHeading>
       <h3 className="mt-12 mb-1 text-primary-green">Proficient with:</h3>
-      <div className="text-sm">
+      <div className="text-sm w-full md:w-3/4">
         Node.js <Accent>|</Accent> Javascript <Accent>|</Accent> Reactjs{" "}
         <Accent>|</Accent> MERN <Accent>|</Accent> Nextjs <Accent>|</Accent>{" "}
-        CSS3 <Accent>|</Accent> Python <Accent>|</Accent> C++ <Accent>|</Accent>{" "}
-        PHP
+        CSS3 <Accent>|</Accent> Python <Accent>|</Accent>
+        C++ <Accent>|</Accent> PHP
         <Accent>|</Accent> Git <Accent>|</Accent> Java <Accent>|</Accent> SASS{" "}
         <Accent>|</Accent> Mysql <Accent>|</Accent> Laravel
       </div>
 
       <h3 className="mt-12 mb-1 text-primary-green">Familiar with:</h3>
-      <div className="text-sm mb-4">
+      <div className="text-sm mb-4 w-full md:w-3/4">
         Vuejs <Accent>|</Accent> LAMP Docker <Accent>|</Accent> Typescript{" "}
         <Accent>|</Accent> PostgreSQL <Accent>|</Accent> SQL <Accent>|</Accent>
         Flutter <Accent>|</Accent> Go <Accent>|</Accent> JAM <Accent>|</Accent>{" "}

@@ -14,7 +14,7 @@ const Layout: FC<Props> = ({ children }) => {
       </Head>
 
       <Header />
-      {children}
+      <main className="content-page">{children}</main>
     </>
   );
 };

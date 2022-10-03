@@ -6,9 +6,7 @@ import { HeaderContainer } from "./Header.styled";
 
 const Header: FC = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const { scrollDirection, isScrollingUp, isScrollingDown } =
-    useScrollDirection({ timeToReset: 10000 });
-  console.log(scrollDirection.toString());
+  const { scrollDirection } = useScrollDirection({ timeToReset: 10000 });
 
   const toggleDrawer = () => {
     setIsOpen((prevState) => !prevState);
