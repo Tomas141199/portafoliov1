@@ -29,7 +29,7 @@ export const experience_data: experience[]  = [
     },
     {
         id: 114301, place: "Wizeline Academy", job: "FRONT-END DEVELOPER",
-        date: "may 2022 - jul 2023",
+        date: "may 2022 - jul 2022",
         roles: [
             {id: 145407 ,role:"Design from scratch of the entire application applying principles and laws of UX with Adobe xd."},
             {id: 145508,role:"Delivering functional prototypes every week according to the list of requirements."},
