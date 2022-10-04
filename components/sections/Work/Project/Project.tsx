@@ -30,7 +30,13 @@ const Project: FC<Props> = ({ position = false }) => {
       <div>
         <a href="link">a</a>
       </div>
-      <ProjectImage href="#" $urlImage={"project1.png"} $position={position} />
+      <ProjectImage
+        href="#"
+        $position={position}
+        style={{
+          backgroundImage: `url(https://res.cloudinary.com/my-account-145/image/upload/v1664869343/project1_jjwkp5.png)`,
+        }}
+      />
     </ProjectContainer>
   );
 };

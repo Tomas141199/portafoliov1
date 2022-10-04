@@ -61,7 +61,6 @@ sm:w-8/12
 h-full 
 ${(p:any) => p.$position ? "right-0" : "left-0"}
 rounded
-${(p:any) => `bg-[url('/${p.$urlImage}')]`}
 bg-[length:100%_100%]
 -z-50
 after:absolute
