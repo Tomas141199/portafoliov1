@@ -29,14 +29,12 @@ export const experience_data: experience[]  = [
     },
     {
         id: 114301, place: "Wizeline Academy", job: "FRONT-END DEVELOPER",
-        date: "may 2022 - jul 2022",
+        date: "may 2022 - jul 2023",
         roles: [
             {id: 145407 ,role:"Design from scratch of the entire application applying principles and laws of UX with Adobe xd."},
             {id: 145508,role:"Delivering functional prototypes every week according to the list of requirements."},
             {id: 140439,role:"Developing all the modules of the application using ReactJs with Styles Components applying the best practices and patterns improving the performance of the application."},
             {id: 142010 ,role:"Working together with a mentor to monitor the project and provide feedback to suggest improvements or clear up doubts."},
-            {id: 1412011 ,role:"Developing an administration panel for local products using Nodejs and strapi CMS"},
-            {id: 1476012 ,role:"Following CI/CD methodologies for application distribution and development automation."},
         ],
         stack: "Reactjs, Redux, Context, StyledComponents, CSS Modules, Hooks, Formik, Yup, NPM, Fetch",
 
