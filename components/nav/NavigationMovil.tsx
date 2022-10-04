@@ -57,6 +57,20 @@ const NavigationMovil: FC<NavigationMovil> = ({ isOpen }) => {
               </Link>
             </motion.div>
           ))}
+          <motion.div
+            key={99333}
+            whileHover={{ scale: 1.1 }}
+            variants={itemVariants}
+          >
+            <a
+              href="https://res.cloudinary.com/my-account-145/image/upload/v1664906404/Tomas_Hernandez_Garcia_gk1ctp.pdf"
+              target="_blank"
+              rel="noreferrer"
+              className=" mt-4 text-tiny px-3 py-2 border-2  border-primary-green rounded text-primary-green active:border-primary-aqua active:text-primary-aqua"
+            >
+              Resume
+            </a>
+          </motion.div>
         </motion.div>
       )}
     </AnimatePresence>

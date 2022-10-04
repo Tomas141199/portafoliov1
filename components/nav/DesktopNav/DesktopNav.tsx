@@ -25,6 +25,20 @@ const DesktopNav: FC = () => {
               </LinkSection>
             </motion.li>
           ))}
+          <motion.li
+            key={141199}
+            whileHover={{ scale: 1.1 }}
+            variants={itemVariants}
+          >
+            <a
+              href="https://res.cloudinary.com/my-account-145/image/upload/v1664906404/Tomas_Hernandez_Garcia_gk1ctp.pdf"
+              target="_blank"
+              rel="noreferrer"
+              className="text-tiny px-2 py-1 border-2  border-primary-green rounded text-primary-green active:border-primary-aqua active:text-primary-aqua"
+            >
+              Resume
+            </a>
+          </motion.li>
         </LinksContainer>
       </motion.nav>
     </AnimatePresence>

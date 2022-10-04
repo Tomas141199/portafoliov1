@@ -42,6 +42,10 @@ module.exports = {
         extratiny: "0.07rem",
         100: "26rem",
       },
+
+      fontSize: {
+        tiny: "0.6rem",
+      },
     },
   },
   plugins: [require("daisyui"), require("tw-elements/dist/plugin")],

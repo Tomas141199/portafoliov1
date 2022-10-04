@@ -58,7 +58,7 @@ top-1/2
 -translate-y-1/2 
 w-full
 sm:w-8/12
-h-full 
+h-52 
 ${(p:any) => p.$position ? "right-0" : "left-0"}
 rounded
 bg-[length:100%_100%]
@@ -71,6 +71,7 @@ after:bg-[rgba(16,33,61,0.9)]
 sm:after:bg-[rgba(5,253,216,0.3)]
 after:transition
 after:duration-300
+after:rounded
 after:-ease-in-out
 after:hover:bg-[rgba(5,253,216,0)]
 `;

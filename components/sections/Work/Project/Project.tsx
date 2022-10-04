@@ -1,4 +1,5 @@
 import React, { FC } from "react";
+import { ExternalLink } from "../../../icons";
 import {
   ProjectDescription,
   LinkImage,
@@ -9,32 +10,48 @@ import {
 
 interface Props {
   position?: boolean;
+  title: String;
+  description: String;
+  techStack: String;
+  url: String;
+  urlImg: String;
 }
 
-const Project: FC<Props> = ({ position = false }) => {
+const Project: FC<Props> = ({
+  position = false,
+  title,
+  description,
+  techStack,
+  url,
+  urlImg,
+}) => {
   return (
     <ProjectContainer $position={position}>
       <h4 className="text-xs text-accent">Featured Project</h4>
       <ProjectName>
-        <LinkImage href="#">project title</LinkImage>
+        <LinkImage href={url} target="_blank" rel="noreferrer">
+          {title}
+        </LinkImage>
       </ProjectName>
       <ProjectDescription $position={position}>
-        Voluptate voluptate incididunt ad officia ad ullamco ipsum. Laborum
-        excepteur officia occaecat eiusmod Lorem voluptate eiusmod sunt non qui
-        proident amet tempor. Nulla ea nulla eiusmod veniam nisi voluptate ea
-        sunt fugiat aliquip consequat proident consectetur tempor.
+        {description}
       </ProjectDescription>
-      <span className="text-xs flex justify-start">
-        tech1 tech2 tech3 tech4
-      </span>
-      <div>
-        <a href="link">a</a>
-      </div>
+      <span className="text-2xs flex justify-start">{techStack}</span>
+      <a
+        href={url.toString()}
+        target="_blank"
+        rel="noreferrer"
+        className="transition duration-200 scale-100 hover:scale-95"
+      >
+        <ExternalLink />
+      </a>
       <ProjectImage
-        href="#"
+        href={url}
+        target="_blank"
+        rel="noreferrer"
         $position={position}
         style={{
-          backgroundImage: `url(https://res.cloudinary.com/my-account-145/image/upload/v1664869343/project1_jjwkp5.png)`,
+          backgroundImage: `url(${urlImg})`,
         }}
       />
     </ProjectContainer>
