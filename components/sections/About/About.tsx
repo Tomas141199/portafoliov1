@@ -3,7 +3,7 @@ import { SectionHeading, Paragraph, Accent } from "../../styled-components";
 
 const About: FC = () => {
   return (
-    <section id="about" className="pt-24 mt-28 mx-auto">
+    <section id="about" className="pt-24 mt-28 mx-auto min-h-screen">
       <SectionHeading>about me</SectionHeading>
       <Paragraph className="w-full md:w-3/4">
         I am an IT student passionate about new technologies. As a Full-Stack

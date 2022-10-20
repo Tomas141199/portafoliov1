@@ -8,6 +8,7 @@ import {
   Skills,
   Work,
 } from "../components/sections";
+import { SocialMedia } from "../components/social-media";
 
 const Home: NextPage = () => {
   return (
@@ -18,6 +19,7 @@ const Home: NextPage = () => {
       <Skills />
       <Work />
       <Contact />
+      <SocialMedia />
     </Layout>
   );
 };

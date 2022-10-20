@@ -2,6 +2,7 @@ import { FC } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { Link } from "react-scroll";
 import { links } from "../../mocks";
+import { GithubIC, InstagramIC, Linkedin } from "../icons";
 
 const itemVariants = {
   closed: {
@@ -57,6 +58,45 @@ const NavigationMovil: FC<NavigationMovil> = ({ isOpen }) => {
               </Link>
             </motion.div>
           ))}
+          <motion.div
+            key={9441233}
+            whileHover={{ scale: 1.1 }}
+            variants={itemVariants}
+          >
+            <a
+              href="https://github.com/Tomas141199"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <GithubIC />
+            </a>
+          </motion.div>
+          <motion.div
+            key={995433}
+            whileHover={{ scale: 1.1 }}
+            variants={itemVariants}
+          >
+            <a
+              href="https://www.linkedin.com/in/tomas-hernandez-garcia-6714541a1/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Linkedin />
+            </a>
+          </motion.div>
+          <motion.div
+            key={992312}
+            whileHover={{ scale: 1.1 }}
+            variants={itemVariants}
+          >
+            <a
+              href="https://www.instagram.com/tomas14.hg/?hl=es-la"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <InstagramIC />
+            </a>
+          </motion.div>
           <motion.div
             key={99333}
             whileHover={{ scale: 1.1 }}
