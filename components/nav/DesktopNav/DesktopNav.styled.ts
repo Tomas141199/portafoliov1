@@ -10,10 +10,3 @@ export const LinksContainer = tw.ul`
     text-sm
     capitalize
 `;
-
-export const LinkSection = tw(Link)`
-  cursor-pointer
-  hover:underline
-  hover:decoration-primary-aqua
-  select-none
-`;

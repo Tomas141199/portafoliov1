@@ -1,8 +1,9 @@
 import { FC } from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import { LinksContainer, LinkSection } from "./DesktopNav.styled";
+import { LinksContainer } from "./DesktopNav.styled";
 import { links } from "../../../mocks";
 import { itemVariants, sideVariants } from "./DesktopNav.framer";
+import { Link } from "react-scroll";
 
 const DesktopNav: FC = () => {
   return (
@@ -20,9 +21,11 @@ const DesktopNav: FC = () => {
               whileHover={{ scale: 1.1 }}
               variants={itemVariants}
             >
-              <LinkSection activeClass="active" smooth spy to={to}>
+              <Link activeClass="active" smooth spy to={to}
+                className="cursor-pointer hover:underline hover:decoration-primary-aqua select-none"
+              >
                 {name}
-              </LinkSection>
+              </Link>
             </motion.li>
           ))}
           <motion.li
