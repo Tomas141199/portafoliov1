@@ -27,7 +27,7 @@ const Hero = () => {
       </div>
 
       <Link activeClass="active" smooth spy to="contact">
-        <Button />
+        Contact me
       </Link>
     </div>
   );
