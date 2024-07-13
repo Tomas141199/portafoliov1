@@ -1,7 +1,6 @@
 import { FC } from "react";
 import { NavigationMovil } from "../";
-import dynamic from "next/dynamic";
-const Drawer = dynamic(() => import("react-modern-drawer"), { ssr: false });
+import Drawer from 'react-modern-drawer'
 import "react-modern-drawer/dist/index.css";
 
 interface Props {
