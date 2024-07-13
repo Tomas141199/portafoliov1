@@ -1,6 +1,5 @@
 import { FC } from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import { LinksContainer } from "./DesktopNav.styled";
 import { links } from "../../../mocks";
 import { itemVariants, sideVariants } from "./DesktopNav.framer";
 import { Link } from "react-scroll";
@@ -14,7 +13,7 @@ const DesktopNav: FC = () => {
         exit="closed"
         variants={sideVariants}
       >
-        <LinksContainer>
+        <ul className="hidden md:flex justify-between items-center gap-4 text-sm capitalize">
           {links.map(({ name, to, id }) => (
             <motion.li
               key={id}
