@@ -41,7 +41,7 @@ const DesktopNav: FC = () => {
               Resume
             </a>
           </motion.li>
-        </LinksContainer>
+        </ul>
       </motion.nav>
     </AnimatePresence>
   );
